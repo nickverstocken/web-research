@@ -1,0 +1,9 @@
+.navbar-collapse.collapse{
+    transition: max-height 0.2s ease-out;
+    max-height:0;
+    overflow:hidden;
+}
+.navbar-collapse{
+    transition: max-height 0.2s ease-in;
+    max-height: 340px;
+}

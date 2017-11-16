@@ -1,0 +1,7 @@
+.navbar{
+  margin-top:15px;
+}
+.navbar .navbar-nav li a.active{
+  background-color:#E7E7E7;
+  color:#333333;
+}
