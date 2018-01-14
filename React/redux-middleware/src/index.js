@@ -39,4 +39,6 @@ store.subscribe(
     }
 );
 store.dispatch({type: 'CHANGE_NAME', payload: "Fred"});
+store.dispatch({type: 'CHANGE_NAME', payload: "Nick"});
 store.dispatch({type: 'CHANGE_AGE', payload: 35});
+store.dispatch({type: 'CHANGE_AGE', payload: 25});

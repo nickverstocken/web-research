@@ -11,4 +11,10 @@ store.subscribe(
     () => {
 saveState({todos: store.getState().todos});
 });
+
+
+store.dispatch(addTodo('Buy Milk'));
+
+
+
 export default store;

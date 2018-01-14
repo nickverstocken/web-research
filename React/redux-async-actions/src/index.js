@@ -37,5 +37,5 @@ const store = createStore(reducer, middleware);
 
 store.dispatch({
     type: 'FETCH_USERS',
-    payload : axios.get('http://rest.learncode.academy/api/john/users')
+    payload : axios.get('http://rest.learncode.academy/api/nick/users')
 });
